@@ -1,4 +1,4 @@
-def edit_distance(A,B):
+def longest_common_subsequence(A,B):
     T=[]
     for a in range(len(A)+1):
         row = [0]
@@ -28,4 +28,4 @@ A="APPLE"
 B = "ELPPA"
 #A="CTGCG"
 #B = "GTCG"
-print(edit_distance(A,B))
+print(longest_common_subsequence(A,B))
